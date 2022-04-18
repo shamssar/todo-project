@@ -21,9 +21,8 @@ if (userAge <= 0) {
     alert("your Age Not Valid");
     
 } else { (userAge > 0) 
-    alert("Do you want to skip the welcoming message?");}
+    confirm("Do you want to skip the welcoming message?\nEither OK or Cancel.");}
  
-
 
 
 
