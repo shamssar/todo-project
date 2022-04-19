@@ -1,0 +1,45 @@
+
+*{margin: 0;padding: 0;text-decoration: none;box-sizing: border-box;list-style: none;}
+
+header {
+    overflow: hidden;
+    background-color: lightslategray;
+    padding: 20px 10px;
+    color: black;
+  }
+
+  .header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header-right {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:lightslategray;
+    color: black;
+    text-align: center;
+ }

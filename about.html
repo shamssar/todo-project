@@ -5,18 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo Website</title>
+    <link rel="stylesheet" href="./about.css">
+
    
  <link rel="icon" type="image/x-icon" href=https://i.pinimg.com/originals/1f/3f/4c/1f3f4ce973d946578567f190e2773709.png>
+ <img src="https://i.pinimg.com/originals/b7/97/c2/b797c291974ce4d3dd731492393fbc6d.png" style="width:70px;height:70px;" alt="Logo">
+
+ <header>
+    <div class="header">
+        
+        <div class="header-right">
+          <a class="active" href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+        </div>
+      </div>
+    
+</header>
 
 
- <img src="https://i.pinimg.com/originals/b7/97/c2/b797c291974ce4d3dd731492393fbc6d.png" style="width:50px;height:60px;" alt="Logo">
-<li><a href="./index.html">Home</a></li>
 
 
-<h1>about me </h1>
-<img src="./my photo.jpg"  alt="mypic" style="width:150px;">
-<p>This Shams Alsaraireh, Learning JS in LTUC 
-    i graduated from Mu'tah University In CS Deparment.</p>
+<h1>Shams Alsaraireh </h1>
+<img id="Me" src="./my photo.jpg"  alt="mypic">
+
+ <p id="para1">This is Shams Alsaraireh, Learning JS in LTUC 
+    i graduated from Mu'tah University, CS Deparment.</p>
+ 
+    
 </head>
 
 
@@ -24,35 +39,61 @@
 <body>
  
     
-          <h3>Contact Us</h3>
+          <h2>Contact Me</h2>
          
      
+        
+
+          <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">FUll Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="full Name" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="Email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="Email" name="Email" placeholder="Your Email..">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="Phone">Phone</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="Phone" name="Phone" placeholder="Your Phone..">
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <input type="Send" value="Send">
+            </div>
+            </form>
+          </div>
           
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-             
-                         
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:17px"></textarea>
-              <input type="submit" value="Submit">
-           
-             
+        
+              
+          <FOOTER> 
+          <div class="footer">
+            <P>Copyright © 20022 Shams Alsaraireh</P>
+          </div>
 
 
-
-
-
-              <p>
-         <input type="text" name="Name" placeholder="Your Name" />
-            <input type="text" name="email" placeholder="Your Email" />
-            <input type="message" name="Message" placeholder="Your Message" />
     
-            <input type="submit" value="Submit" />
-        </p>
-
-
-<FOOTER> 
-    <P>Copyright © 20022 Shams Alsaraireh</P>
    </FOOTER>
    </BODY>
    </HTML>
